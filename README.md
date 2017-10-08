@@ -11,13 +11,13 @@ To setup the same, follow these steps:
 - Visit https://console.firebase.google.com/ Login with your google account, if needed.
 - Create a New project
 
-![image](https://example.com/image.png)
+![image](https://raw.githubusercontent.com/techsethi/vue-firestore-chat/master/static/fb_console1.png)
 
 - Click on Settings > Project Settings
 
 - Copy Project ID & API Key
 
-![image](https://example.com/image.png)
+![image](https://raw.githubusercontent.com/techsethi/vue-firestore-chat/master/static/console2.png)
 
 - Replace these values in src/firebase/config.js
 
