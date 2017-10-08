@@ -2,6 +2,36 @@
 
 > A Vue.js and Cloud Firestore chat application.
 
+## Firestore Setup
+
+This app used Google firestore to save backend database.
+
+To setup the same, follow these steps:
+
+- Visit https://console.firebase.google.com/ Login with your google account, if needed.
+- Create a New project
+
+![image](https://example.com/image.png)
+
+- Click on Settings > Project Settings
+
+- Copy Project ID & API Key
+
+![image](https://example.com/image.png)
+
+- Replace these values in src/firebase/config.js
+
+```
+const config = {
+  apiKey: "xxxxxxxxxxxxxxxx-xxxxxxxxxxxxx",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "xxxxxxxxxxxxx",
+  storageBucket: "",
+  messagingSenderId: ""
+};
+
+```
 ## Build Setup
 
 ``` bash
